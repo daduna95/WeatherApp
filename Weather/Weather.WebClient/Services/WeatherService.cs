@@ -24,7 +24,5 @@ namespace Weather.WebClient.Services
                 return weatherInfo;
             }
         }
-
-
     }
 }
