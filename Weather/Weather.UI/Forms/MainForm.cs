@@ -17,7 +17,6 @@ namespace Weather.UI.Forms
         {
             InitializeComponent();
         }
-
         private async void MainForm_Load(object sender, EventArgs e)
         {
             WeatherService service = new WeatherService();

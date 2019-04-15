@@ -13,7 +13,7 @@ namespace Weather.WebClient.Services
     {
         readonly string baseUrl = "https://api.darksky.net/forecast/c7273b193cec8f2bfe4fcbb9cbae22f1/";
 
-        private async Task<WeatherInfo> GetWeatherData(double lat, double lon)
+        public async Task<WeatherInfo> GetWeatherData(double lat, double lon)
         {
             using (var client = new HttpClient())
             {
