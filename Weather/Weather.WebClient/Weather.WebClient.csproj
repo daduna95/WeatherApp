@@ -48,13 +48,13 @@
     <Compile Include="Services\WeatherService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Weather.BL\Weather.BL.csproj">
       <Project>{dce73918-8a09-402a-92a7-7b1995c23210}</Project>
       <Name>Weather.BL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
