@@ -20,10 +20,20 @@ namespace Weather.UI.Forms
         }
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            //WeatherService service = new WeatherService();
-            //var data = await service.GetWeatherData(41.7151, 44.8271);
             WeatherServiceBL servicetest = new WeatherServiceBL();
-            var datatest = await servicetest.weatherModel(37.8267, -122.4233);
+            var datatest = await servicetest.weatherModel(41.7151, 44.8271);
+    
+
+
+            CurrentTemperature_Label.Text = datatest.currently.Temperature.ToString();
+            HighestTemperature_Label.Text = datatest.daily.temperatureMax.ToString();
+            LowestTemperature_Label.Text = datatest.daily.temperatureMin.ToString();
+            FeelsLikePercentage_Label.Text = datatest.currently.ApparentTemperature.ToString();
+            WeatherIcon_PictureBox.ImageLocation = datatest.currently.Icon;
+            WindSpeed_Label.Text = datatest.currently.WindSpeed.ToString();
+            HumidityPercentage_Label.Text = datatest.currently.Humidity.ToString();
+            VisibilityDistance_Label.Text = datatest.currently.Humidity.ToString();
+            PressurePower_Label.Text = datatest.currently.Pressure.ToString();
         }
     }
 }

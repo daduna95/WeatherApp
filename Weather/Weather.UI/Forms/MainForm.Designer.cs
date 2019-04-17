@@ -38,7 +38,6 @@
             this.PressurePower_Label = new System.Windows.Forms.Label();
             this.WeatherIcon_PictureBox = new System.Windows.Forms.PictureBox();
             this.CurrentTemperature_Label = new System.Windows.Forms.Label();
-            this.CurrenWeatherType_Label = new System.Windows.Forms.Label();
             this.FeelsLike_Label = new System.Windows.Forms.Label();
             this.FeelsLikePercentage_Label = new System.Windows.Forms.Label();
             this.Lowest_Label = new System.Windows.Forms.Label();
@@ -146,16 +145,6 @@
             this.CurrentTemperature_Label.TabIndex = 3;
             this.CurrentTemperature_Label.Text = "0 F";
             // 
-            // CurrenWeatherType_Label
-            // 
-            this.CurrenWeatherType_Label.AutoSize = true;
-            this.CurrenWeatherType_Label.Font = new System.Drawing.Font("Sylfaen", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CurrenWeatherType_Label.Location = new System.Drawing.Point(425, 123);
-            this.CurrenWeatherType_Label.Name = "CurrenWeatherType_Label";
-            this.CurrenWeatherType_Label.Size = new System.Drawing.Size(328, 62);
-            this.CurrenWeatherType_Label.TabIndex = 3;
-            this.CurrenWeatherType_Label.Text = "Weather Type";
-            // 
             // FeelsLike_Label
             // 
             this.FeelsLike_Label.AutoSize = true;
@@ -221,7 +210,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 302);
-            this.Controls.Add(this.CurrenWeatherType_Label);
             this.Controls.Add(this.CurrentTemperature_Label);
             this.Controls.Add(this.WeatherIcon_PictureBox);
             this.Controls.Add(this.PressurePower_Label);
@@ -259,7 +247,6 @@
         private System.Windows.Forms.Label PressurePower_Label;
         private System.Windows.Forms.PictureBox WeatherIcon_PictureBox;
         private System.Windows.Forms.Label CurrentTemperature_Label;
-        private System.Windows.Forms.Label CurrenWeatherType_Label;
         private System.Windows.Forms.Label FeelsLike_Label;
         private System.Windows.Forms.Label FeelsLikePercentage_Label;
         private System.Windows.Forms.Label Lowest_Label;

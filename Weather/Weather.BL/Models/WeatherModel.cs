@@ -17,12 +17,17 @@ namespace Weather.BL.Models
             public double Pressure { get; set; }
             public double WindSpeed { get; set; }
             public double Visibility { get; set; }
-            public double TemperatureHigh { get; set; }
-            public double TemperatureLow { get; set; }
+           
+        }
+        public class DailyData
+        {
+            public double temperatureMax { get; set; }
+            public double temperatureMin { get; set; }
         }
         public class WeatherServiceBLInfo
         {
             public Currently currently { get; set; }
+            public DailyData daily { get; set; }
         }
     }
 }
