@@ -45,8 +45,6 @@
   <ItemGroup>
     <Compile Include="Models\WeatherModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\IWeatherService.cs" />
-    <Compile Include="Services\WeatherServiceBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

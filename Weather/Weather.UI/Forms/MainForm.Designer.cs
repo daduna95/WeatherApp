@@ -141,9 +141,9 @@
             this.CurrentTemperature_Label.Font = new System.Drawing.Font("Sylfaen", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CurrentTemperature_Label.Location = new System.Drawing.Point(327, 123);
             this.CurrentTemperature_Label.Name = "CurrentTemperature_Label";
-            this.CurrentTemperature_Label.Size = new System.Drawing.Size(92, 62);
+            this.CurrentTemperature_Label.Size = new System.Drawing.Size(52, 62);
             this.CurrentTemperature_Label.TabIndex = 3;
-            this.CurrentTemperature_Label.Text = "0 F";
+            this.CurrentTemperature_Label.Text = "0";
             // 
             // FeelsLike_Label
             // 
@@ -181,9 +181,9 @@
             this.LowestTemperature_Label.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LowestTemperature_Label.Location = new System.Drawing.Point(562, 198);
             this.LowestTemperature_Label.Name = "LowestTemperature_Label";
-            this.LowestTemperature_Label.Size = new System.Drawing.Size(38, 25);
+            this.LowestTemperature_Label.Size = new System.Drawing.Size(22, 25);
             this.LowestTemperature_Label.TabIndex = 1;
-            this.LowestTemperature_Label.Text = "0%";
+            this.LowestTemperature_Label.Text = "0";
             // 
             // Highest_Label
             // 
@@ -201,9 +201,9 @@
             this.HighestTemperature_Label.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HighestTemperature_Label.Location = new System.Drawing.Point(682, 198);
             this.HighestTemperature_Label.Name = "HighestTemperature_Label";
-            this.HighestTemperature_Label.Size = new System.Drawing.Size(38, 25);
+            this.HighestTemperature_Label.Size = new System.Drawing.Size(22, 25);
             this.HighestTemperature_Label.TabIndex = 1;
-            this.HighestTemperature_Label.Text = "0%";
+            this.HighestTemperature_Label.Text = "0";
             // 
             // MainForm
             // 
