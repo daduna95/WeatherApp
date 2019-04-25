@@ -33,7 +33,7 @@ namespace Weather.WebClient.Services
             {
                 ApparentTemperature = data.currently.apparentTemperature,
                 Humidity = data.currently.humidity,
-                Temperature = data.currently.temperature,
+                Currenttemperature = data.currently.temperature,
                 Pressure = data.currently.pressure,
                 WindSpeed = data.currently.windSpeed,
                 Visibility = data.currently.visibility,

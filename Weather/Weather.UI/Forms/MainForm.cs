@@ -21,7 +21,7 @@ namespace Weather.UI.Forms
         {
             WeatherService servicetest = new WeatherService();
             var datatest = await servicetest.GetWeatherModel(41.716667, 44.783333);
-            CurrentTemperature_Label.Text = datatest.Temperature.ToString();
+            CurrentTemperature_Label.Text = datatest.Currenttemperature.ToString();
             FeelsLikePercentage_Label.Text = datatest.ApparentTemperature.ToString();
             WindSpeed_Label.Text = datatest.WindSpeed.ToString();
             HumidityPercentage_Label.Text = datatest.WindSpeed.ToString();
